@@ -1,0 +1,38 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 186.779 s <<< FAILURE! - in TestSuite
+setup(MavenDemo.MavenDemo.LoginTest)  Time elapsed: 175.558 s  <<< FAILURE!
+org.openqa.selenium.WebDriverException: 
+unknown error: unable to discover open pages
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'RAJAN-PC', ip: '192.168.43.204', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_211'
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x00191B43+1448771]
+	Ordinal0 [0x00115A31+940593]
+	Ordinal0 [0x000A2293+467603]
+	Ordinal0 [0x0003F1DA+61914]
+	Ordinal0 [0x0003BBBD+48061]
+	Ordinal0 [0x00058D09+167177]
+	Ordinal0 [0x000588DD+166109]
+	Ordinal0 [0x00056FEB+159723]
+	Ordinal0 [0x000409F6+68086]
+	Ordinal0 [0x00041990+72080]
+	Ordinal0 [0x00041929+71977]
+	GetHandleVerifier [0x002D2E8C+1172172]
+	GetHandleVerifier [0x0022FE55+504469]
+	GetHandleVerifier [0x0022FBF0+503856]
+	Ordinal0 [0x0019C9C8+1493448]
+	GetHandleVerifier [0x0023062A+506474]
+	Ordinal0 [0x00127156+1012054]
+	Ordinal0 [0x00126FCF+1011663]
+	Ordinal0 [0x0013135B+1053531]
+	Ordinal0 [0x001314C3+1053891]
+	Ordinal0 [0x001304F5+1049845]
+	BaseThreadInitThunk [0x74BC343D+18]
+	RtlInitializeExceptionChain [0x77469802+99]
+	RtlInitializeExceptionChain [0x774697D5+54]
+
+	at MavenDemo.MavenDemo.LoginTest.setup(LoginTest.java:18)
+
